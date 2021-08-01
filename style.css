@@ -1,0 +1,32 @@
+body {
+  margin:0;
+  display:flex;
+  flex-direction:column;
+}
+div {
+  font-size:18px;
+  font-family:monospace;
+  padding:10px 0px 10px 10px;
+}
+div:nth-child(odd) { 
+  background-color: #0B2433;
+}
+div:nth-child(even) { 
+  background-color: #071923;
+}
+span {
+  display:block;
+  white-space:pre-wrap;
+}
+.task {
+  color:#0BDD00;
+}
+.task, .test {
+  margin:0px 0px 16px 0px;
+}
+.code {
+  color:whitesmoke;
+}
+.test {
+  color:orange;
+}
